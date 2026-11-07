@@ -1,0 +1,27 @@
+# Python virtual environments
+deepfake-env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# Local datasets
+data/
+dataset/
+datasets/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db

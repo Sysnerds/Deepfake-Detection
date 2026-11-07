@@ -1,0 +1,20 @@
+{
+    "dataset": "140k Real and Fake Faces",
+    "model": "BasicCNN",
+    "image_size": "128x128",
+    "batch_size": 32,
+    "epochs": 10,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "best_epoch": 10,
+    "validation_accuracy": 90.92,
+    "validation_loss": 0.22402467696070671,
+    "test_accuracy": 91.19500000000001,
+    "test_precision_real": 89.06590801327643,
+    "test_recall_real": 93.92,
+    "test_f1_real": 91.42857142857143,
+    "test_precision_fake": 93.56953992596509,
+    "test_recall_fake": 88.47,
+    "test_f1_fake": 90.94834232845027,
+    "macro_f1": 91.18845687851085
+}
